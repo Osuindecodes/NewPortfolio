@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osuinde  Favour| Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container nav-container">
+               <a href="#" class="logo">Osuinde<span>Favour</span></a>
+               <nav>
+                         <ul class="nav-links">
+                              <li><a href="#home">Home</a></li>
+                              <li><a href="#skills">Skills</a></li>
+                              <li><a href="#projects">Projects</a></li>
+                              <li><a href="#about">About</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                         </ul>
+                         <button class="mobile-menu-btn" id="mobileMenuBtn">
+                              <i class="fas fa-bars"></i>
+                         </button>
+               </nav>
+         </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-menu-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container" style="display: flex; align-items: center; justify-content: space-between;">
+            <div class="hero-content" id="heroContent">
+                <h1>Building <span>Digital Experiences</span> That Make an Impact</h1>
+                <p>I'm a frontend developer specializing in creating responsive, accessible, and performant web
+                    applications using modern technologies.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="https://wa.me/+2348168445924" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image" id="heroImage">
+                <div class="hero-image-placeholder">
+                    <img src="Images/portfolioimg01.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Expertise</h2>
+                <p>I specialize in creating modern, responsive web applications with a focus on performance and user
+                    experience.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-delay="0">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive UI Development</h3>
+                    <p>Building interfaces that work seamlessly across all devices and screen sizes using modern CSS
+                        techniques and frameworks like Bootstrap.</p>
+                </div>
+                <div class="skill-card" data-delay="100">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>Modern Frameworks</h3>
+                    <p>Expertise in React    for building dynamic, component-based
+                        applications.</p>
+                </div>
+                <div class="skill-card" data-delay="200">
+                    <div class="skill-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>API Integration</h3>
+                    <p>Connecting frontend applications with backend services and managing application state
+                        effectively.</p>
+                </div>
+                <div class="skill-card" data-delay="300">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Collaboration</h3>
+                    <p>Working closely with designers and backend engineers to deliver seamless user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects" style="background-color: #f1f5f9;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <p>Here are some of my recent projects that showcase my skills and approach to development.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-delay="0">
+                    <div class="project-image">
+                        <img src="Images/HOSPITAL 1.png" style="width: 100%; height: 100%;" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Website</h3>
+                        <p>A responsive Medical website for bookings and consultations</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Html 5</span>
+                            <span class="project-tag">Css</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://medilab-nu.vercel.app/" class="btn">Live Demo</a>
+                            <a href="https://github.com/Osuindecodes/medilab.git" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-delay="100">
+                    <div class="project-image">
+                        <img src="Images/e-commerce.jpeg" style="width: 100%; height: 100%;"  alt="">
+                    </div>
+                    <div class="project-content">
+                         <h3>E-Commerce Dashboard</h3>
+                        <p>A responsive admin dashboard for e-commerce analytics with real-time data visualization.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Html 5</span>
+                            <span class="project-tag">Css</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://com-merce.netlify.app/" class="btn">Live Demo</a>
+                            <a href="#" onclick="alert('Sorry contact the developer for access to this.')" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-delay="100">
+                    <div class="project-image">
+                        <img src="Images/recyclo.jpeg" style="width: 100%; height: 100%;"  alt="">
+                    </div>
+                    <div class="project-content">
+                         <h3>Waste Disposal Website</h3>
+                        <p>Transforming waste into a resource, one disposal at a time! Responsive waste disposal website for a cleaner tomorrow</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Html 5</span>
+                            <span class="project-tag">Css</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">React.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://recyclo-xi.vercel.app/" class="btn">Live Demo</a>
+                            <a href="#" onclick="alert('Sorry contact the developer for access to this.')" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-delay="100">
+                    <div class="project-image">
+                        <img src="Images/lawyer-site.jpeg" style="width: 100%; height: 100%;"  alt="">
+                    </div>
+                    <div class="project-content">
+                         <h3>Legal Consultation Website</h3>
+                        <p>A responsive Legal Consultaion Website consult with top lawyers online Get personalized advice for your case protect your rights and interests</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Html 5</span>
+                            <span class="project-tag">Bootstrap</span>
+                            <span class="project-tag">React.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="3 https://ready-lawyer.vercel.app/lawyers" class="btn">Live Demo</a>
+                            <a href="#" onclick="alert('Sorry contact the developer for access to this.')" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-delay="100">
+                    <div class="project-image">
+                        <img src="Images/chat box.jpeg" style="width: 100%; height: 100%;"  alt="">
+                    </div>
+                    <div class="project-content">
+                         <h3>Chat bot Template</h3>
+                        <p>Boost your business with our ready-to-use chatbot templates!</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Html 5</span>
+                            <span class="project-tag">Css</span>
+                            <span class="project-tag">Next.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://next-bot-omega.vercel.app/" class="btn">Live Demo</a>
+                            <a href="#" onclick="alert('Sorry contact the developer for access to this.')" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-delay="200">
+                    <div class="project-image">
+                        <img src="Images/quiz.jpeg" style="width: 100%; height: 100%;" alt="">
+                    </div>
+                    <div class="project-content">
+                        <h3>Trival Quiz</h3>
+                        <p>A quiz website for testing your knowledge</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://quizzical-trival-quiz.netlify.app/" class="btn">Live Demo</a>
+                            <a href="#" class="btn btn-outline">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" id="aboutText">
+                    <h2>About Me</h2>
+                    <p>I'm a passionate Website developer with a strong focus on creating accessible, performant web
+                        applications. My journey in web development started with HTML, CSS, and JavaScript, and has
+                        evolved to include modern frameworks like React.</p>
+                    <p>I believe in writing clean, maintainable code and paying attention to details that enhance user
+                        experience. I'm constantly learning and staying up-to-date with the latest web technologies and
+                        best practices.</p>
+                    <p>You can also find me exploring new design trends, contributing to open-source
+                        projects, or sharing knowledge with developer communities.</p>
+                    <a href="https://wa.me/+2348168445924" class="btn">Let's Work Together</a>
+                </div>
+                <div class="about-image" id="aboutImage">
+                    <div class="about-image-placeholder">
+                        <img src="Images/portfolioimg01.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" style="background-color: #f1f5f9;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind or want to discuss potential opportunities? I'm open to conversations.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item" data-delay="0">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <a href="mailto:osuindefavour@gmail.com?subject=Inquiry&body=Hello"
+                                style="text-decoration: underline;">Click Me</a>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-delay="100">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Lagos, Nigeria.</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+234 816 844 5924</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div>
+                            <h3>Freelance</h3>
+                            <p>Available for projects</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo"><span>Osuinde Favour</span></div>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const mobileMenuLinks = document.querySelectorAll('.mobile-menu-links a');
+
+        function toggleMobileMenu() {
+            mobileMenu.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+            document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+        }
+
+        mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+        menuOverlay.addEventListener('click', toggleMobileMenu);
+
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', toggleMobileMenu);
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Scroll animations
+        function isElementInViewport(el) {
+            const rect = el.getBoundingClientRect();
+            return (
+                rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.8 &&
+                rect.bottom >= 0
+            );
+        }
+
+        function handleScrollAnimations() {
+            const animatedElements = document.querySelectorAll('.hero-content, .hero-image, .skill-card, .project-card, .about-text, .about-image, .contact-item, .contact-form');
+
+            animatedElements.forEach(el => {
+                if (isElementInViewport(el)) {
+                    const delay = el.getAttribute('data-delay') || 0;
+
+                    setTimeout(() => {
+                        if (el.classList.contains('hero-content') || el.classList.contains('about-text')) {
+                            el.style.animation = 'slideInLeft 0.8s ease forwards';
+                        } else if (el.classList.contains('hero-image') || el.classList.contains('about-image')) {
+                            el.style.animation = 'slideInRight 0.8s ease forwards';
+                        } else if (el.classList.contains('contact-item')) {
+                            el.style.animation = 'fadeIn 0.8s ease forwards';
+                        } else {
+                            el.style.animation = 'fadeIn 0.8s ease forwards';
+                        }
+
+                        el.style.opacity = '1';
+                        el.style.transform = 'translate(0)';
+                    }, parseInt(delay));
+                }
+            });
+        }
+
+        // Initialize animations on page load
+        window.addEventListener('load', () => {
+            // Animate hero section immediately
+            document.getElementById('heroContent').style.animation = 'slideInLeft 0.8s ease forwards';
+            document.getElementById('heroContent').style.opacity = '1';
+            document.getElementById('heroContent').style.transform = 'translateX(0)';
+
+            document.getElementById('heroImage').style.animation = 'slideInRight 0.8s ease forwards';
+            document.getElementById('heroImage').style.opacity = '1';
+            document.getElementById('heroImage').style.transform = 'translateX(0)';
+
+            // Then check for other elements on scroll
+            window.addEventListener('scroll', handleScrollAnimations);
+            handleScrollAnimations(); // Check on initial load
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
