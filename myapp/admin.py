@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import getdata
+from .models import Getdata
 # Register your models here.
 
-admin.site.register(getdata)
+admin.site.register(Getdata)
