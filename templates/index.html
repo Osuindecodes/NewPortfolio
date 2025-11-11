@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osuinde  Favour| Frontend Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
 </head>
 
 <body>
@@ -53,12 +53,12 @@
                     applications using modern technologies.</p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn">View My Work</a>
-                    <a href="https://wa.me/+2348168445924" class="btn btn-outline">Get In Touch</a>
+                    <a href="{% static 'https://wa.me/+2348168445924' %}" class="btn btn-outline">Get In Touch</a>
                 </div>
             </div>
             <div class="hero-image" id="heroImage">
                 <div class="hero-image-placeholder">
-                    <img src="Images/portfolioimg01.jpg" alt="">
+                    <img src="{% static 'Images/portfolioimg01.jpg' %}" alt="">
                 </div>
             </div>
         </div>
@@ -370,12 +370,6 @@
             }
         });
 
-        // Form submission
-        document.getElementById('contactForm').addEventListener('submit', function (e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
-        });
 
         // Scroll animations
         function isElementInViewport(el) {
